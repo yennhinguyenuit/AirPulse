@@ -1,0 +1,5 @@
+.env
+__pycache__/
+logs/
+data/google_flights_raw/
+*.pyc
