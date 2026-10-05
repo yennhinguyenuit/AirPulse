@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "*/5 * * * *"
-      timezone: "Asia/Ho_Chi_Minh"
+    - cron: "57 4 * * *"
 
 jobs:
   test:
@@ -15,4 +14,4 @@ jobs:
       - name: Test scheduled trigger
         run: |
           echo "SCHEDULE WORKS"
-          date
+          date -u
